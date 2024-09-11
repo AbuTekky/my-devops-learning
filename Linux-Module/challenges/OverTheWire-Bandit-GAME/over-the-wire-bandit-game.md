@@ -558,9 +558,9 @@ The password for **Bandit Level 10** was stored in the file `data.txt` among a f
 <!-- Fancy title and stylish box around GIF --> <div style="text-align: center; margin: 20px 0;"> <h2 style="font-family: 'Arial', sans-serif; color: #FF5722; font-size: 24px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Live Demonstration</h2> <div style="width: 400px; margin: 0 auto; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"> <img src="images/Level9-10.gif" alt="Level 9-10 GIF" width="100%" /> </div> </div>
 #
 
-<h2 style="font-family: 'Press Start 2P', cursive; color: #23FF16;">
-  Bandit Level 10 → Level 11
-</h2>
+
+## Bandit Level 10 → Level 11
+
 
 ### Level Goal
 The password for **Bandit Level 11** was stored in the file `data.txt`, which contained base64-encoded data. My task was to decode the base64 data and retrieve the password.
@@ -599,8 +599,7 @@ The password for **Bandit Level 11** was stored in the file `data.txt`, which co
 #
 
 
-##  Bandit Level 11 → Level 12 (got bamboozled on this one...)
-
+##  Bandit Level 11 → Level 12 
 
 ### Level Goal
 The password for **Bandit Level 12** was stored in the file `data.txt`, where all lowercase (a-z) and uppercase (A-Z) letters had been rotated by 13 positions (ROT13). My task was to decode the ROT13-encoded data and retrieve the password.
