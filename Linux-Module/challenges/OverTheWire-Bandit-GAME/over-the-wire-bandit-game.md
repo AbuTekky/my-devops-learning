@@ -78,9 +78,9 @@ If you're looking to boost your Linux skills, I highly recommend giving OverTheW
 
 ---
 
-<h2 style="font-family: 'Press Start 2P', cursive; color: #23FF16;">
-  Bandit Level 0
-</h2>
+
+##  Bandit Level 0
+
 
 ### Level Goal
 The goal for **Bandit Level 0** was to log into the game server using SSH. My task was to connect to the provided host using the correct port, username, and password. Once I logged in, I needed to visit the Level 1 page to move on to the next step.
@@ -114,9 +114,9 @@ The goal for **Bandit Level 0** was to log into the game server using SSH. My ta
 <!-- Fancy title and stylish box around GIF --> <div style="text-align: center; margin: 20px 0;"> <h2 style="font-family: 'Arial', sans-serif; color: #FF5722; font-size: 24px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Live Demonstration</h2> <div style="width: 400px; margin: 0 auto; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"> <img src="images/Level0.gif" alt="Level 0 GIF" width="100%" /> </div> </div>
 #
 
-<h2 style="font-family: 'Press Start 2P', cursive; color: #23FF16;">
-  Bandit Level 0 → Level 1
-</h2>
+
+##  Bandit Level 0 → Level 1
+
 
 ### Level Goal
 The password for **Bandit Level 1** was stored in a file called `readme` located in the home directory of the Bandit Level 0 server. My objective was to find and retrieve this password and use it to log into Bandit Level 1 via SSH.
@@ -141,9 +141,9 @@ The password for **Bandit Level 1** was stored in a file called `readme` located
 <!-- Fancy title and stylish box around GIF --> <div style="text-align: center; margin: 20px 0;"> <h2 style="font-family: 'Arial', sans-serif; color: #FF5722; font-size: 24px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Live Demonstration</h2> <div style="width: 400px; margin: 0 auto; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"> <img src="images/Level0-1.gif" alt="Level 0-1 GIF" width="100%" /> </div> </div>
 #
 
-<h2 style="font-family: 'Press Start 2P', cursive; color: #23FF16;">
-  Bandit Level 1 → Level 2
-</h2>
+
+##  Bandit Level 1 → Level 2
+
 
 ## Level Goal
 The password for **Bandit Level 2** was stored in a file called `-` located in my home directory. My task was to find and retrieve this password and use it to log into Bandit Level 2 via SSH.
@@ -188,9 +188,8 @@ The password for **Bandit Level 2** was stored in a file called `-` located in m
 <!-- Fancy title and stylish box around GIF --> <div style="text-align: center; margin: 20px 0;"> <h2 style="font-family: 'Arial', sans-serif; color: #FF5722; font-size: 24px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Live Demonstration</h2> <div style="width: 400px; margin: 0 auto; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"> <img src="images/Level1-2.gif" alt="Level 1-2 GIF" width="100%" /> </div> </div>
 #
 
-<h2 style="font-family: 'Press Start 2P', cursive; color: #23FF16;">
-  Bandit Level 2 → Level 3
-</h2>
+## Bandit Level 2 → Level 3
+
 
 ### Level Goal
 The password for **Bandit Level 3** was stored in a file called `spaces in this filename` located in my home directory. My task was to find and retrieve this password and use it to log into Bandit Level 3 via SSH.
@@ -235,9 +234,8 @@ The password for **Bandit Level 3** was stored in a file called `spaces in this 
 <!-- Fancy title and stylish box around GIF --> <div style="text-align: center; margin: 20px 0;"> <h2 style="font-family: 'Arial', sans-serif; color: #FF5722; font-size: 24px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Live Demonstration</h2> <div style="width: 400px; margin: 0 auto; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"> <img src="images/Level2-3.gif" alt="Level 2-3 GIF" width="100%" /> </div> </div>
 #
 
-<h2 style="font-family: 'Press Start 2P', cursive; color: #23FF16;">
-  Bandit Level 3 → Level 4
-</h2>
+
+##  Bandit Level 3 → Level 4
 
 
 ### Level Goal
@@ -282,9 +280,9 @@ The password for **Bandit Level 4** was stored in a hidden file located in the `
 <!-- Fancy title and stylish box around GIF --> <div style="text-align: center; margin: 20px 0;"> <h2 style="font-family: 'Arial', sans-serif; color: #FF5722; font-size: 24px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Live Demonstration</h2> <div style="width: 400px; margin: 0 auto; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"> <img src="images/Level3-4.gif" alt="Level 3-4 GIF" width="100%" /> </div> </div>
 #
 
-<h2 style="font-family: 'Press Start 2P', cursive; color: #23FF16;">
-  Bandit Level 4 → Level 5
-</h2>
+
+##  Bandit Level 4 → Level 5
+
 
 ### Level Goal
 The password for **Bandit Level 5** was stored in the only human-readable file in the `inhere` directory. My task was to find and retrieve this password and use it to log into Bandit Level 5 via SSH.
