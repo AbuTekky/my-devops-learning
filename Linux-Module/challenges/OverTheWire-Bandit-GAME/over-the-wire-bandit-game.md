@@ -326,9 +326,8 @@ The password for **Bandit Level 5** was stored in the only human-readable file i
 <!-- Fancy title and stylish box around GIF --> <div style="text-align: center; margin: 20px 0;"> <h2 style="font-family: 'Arial', sans-serif; color: #FF5722; font-size: 24px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Live Demonstration</h2> <div style="width: 400px; margin: 0 auto; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"> <img src="images/Level4-5.gif" alt="Level 4-5 GIF" width="100%" /> </div> </div>
 #
 
-<h2 style="font-family: 'Press Start 2P', cursive; color: #23FF16;">
-  Bandit Level 5 → Level 6
-</h2>
+##  Bandit Level 5 → Level 6
+
 
 ### Level Goal
 The password for **Bandit Level 6** was stored in a file located somewhere under the `inhere` directory. The file had to meet the following criteria:
@@ -377,9 +376,9 @@ My task was to find this file and retrieve the password to log into Bandit Level
 <!-- Fancy title and stylish box around GIF --> <div style="text-align: center; margin: 20px 0;"> <h2 style="font-family: 'Arial', sans-serif; color: #FF5722; font-size: 24px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Live Demonstration</h2> <div style="width: 400px; margin: 0 auto; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"> <img src="images/Level5-6.gif" alt="Level 5-6 GIF" width="100%" /> </div> </div>
 #
 
-<h2 style="font-family: 'Press Start 2P', cursive; color: #23FF16;">
-  Bandit Level 6 → Level 7
-</h2>
+
+## Bandit Level 6 → Level 7
+
 
 ### Level Goal
 The password for **Bandit Level 7** was stored in a file somewhere on the server. The file had the following properties:
@@ -428,9 +427,8 @@ My task was to find this file and retrieve the password to log into Bandit Level
 <!-- Fancy title and stylish box around GIF --> <div style="text-align: center; margin: 20px 0;"> <h2 style="font-family: 'Arial', sans-serif; color: #FF5722; font-size: 24px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Live Demonstration</h2> <div style="width: 400px; margin: 0 auto; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"> <img src="images/Level6-7.gif" alt="Level 6-7 GIF" width="100%" /> </div> </div>
 #
 
-<h2 style="font-family: 'Press Start 2P', cursive; color: #23FF16;">
-  Bandit Level 7 → Level 8
-</h2>
+##  Bandit Level 7 → Level 8
+
 
 ### Level Goal
 The password for **Bandit Level 8** was stored in a file called `data.txt` next to the word "millionth". My task was to find the password by searching for this word in the file.
@@ -468,9 +466,9 @@ The password for **Bandit Level 8** was stored in a file called `data.txt` next 
 <!-- Fancy title and stylish box around GIF --> <div style="text-align: center; margin: 20px 0;"> <h2 style="font-family: 'Arial', sans-serif; color: #FF5722; font-size: 24px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Live Demonstration</h2> <div style="width: 400px; margin: 0 auto; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"> <img src="images/Level7-8.gif" alt="Level 7-8 GIF" width="100%" /> </div> </div>
 #
 
-<h2 style="font-family: 'Press Start 2P', cursive; color: #23FF16;">
-  Bandit Level 8 → Level 9
-</h2>
+
+## Bandit Level 8 → Level 9
+
 
 ### Level Goal
 The password for **Bandit Level 9** was stored in the file `data.txt` and was the only line of text that occurred exactly once. My task was to find this unique line and use it as the password to access the next level.
@@ -517,9 +515,9 @@ The password for **Bandit Level 9** was stored in the file `data.txt` and was th
 <!-- Fancy title and stylish box around GIF --> <div style="text-align: center; margin: 20px 0;"> <h2 style="font-family: 'Arial', sans-serif; color: #FF5722; font-size: 24px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Live Demonstration</h2> <div style="width: 400px; margin: 0 auto; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"> <img src="images/Level8-9.gif" alt="Level 8-9 GIF" width="100%" /> </div> </div>
 #
 
-<h2 style="font-family: 'Press Start 2P', cursive; color: #23FF16;">
-  Bandit Level 9 → Level 10
-</h2>
+
+## Bandit Level 9 → Level 10
+
 
 ### Level Goal
 The password for **Bandit Level 10** was stored in the file `data.txt` among a few human-readable strings, preceded by several `=` characters. My task was to extract the human-readable strings and locate the password.
@@ -600,9 +598,9 @@ The password for **Bandit Level 11** was stored in the file `data.txt`, which co
 <!-- Fancy title and stylish box around GIF --> <div style="text-align: center; margin: 20px 0;"> <h2 style="font-family: 'Arial', sans-serif; color: #FF5722; font-size: 24px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Live Demonstration</h2> <div style="width: 400px; margin: 0 auto; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"> <img src="images/Level10-11.gif" alt="Level 10-11 GIF" width="100%" /> </div> </div>
 #
 
-<h2 style="font-family: 'Press Start 2P', cursive; color: #23FF16;">
-  Bandit Level 11 → Level 12 (bamboozled on this one...)
-</h2>
+
+##  Bandit Level 11 → Level 12 (got bamboozled on this one...)
+
 
 ### Level Goal
 The password for **Bandit Level 12** was stored in the file `data.txt`, where all lowercase (a-z) and uppercase (A-Z) letters had been rotated by 13 positions (ROT13). My task was to decode the ROT13-encoded data and retrieve the password.
