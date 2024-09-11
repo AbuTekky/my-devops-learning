@@ -17,7 +17,7 @@
   - [Bandit Level 10 → Level 11](#bandit-level-10--level-11)
   - [Bandit Level 11 → Level 12](#bandit-level-11--level-12)
   - [To be continued...](#to-be-continued)
-  - [Command Cheat Sheet](#command-cheat-sheet)
+  - [📜 Command Cheat Sheet](#command-cheat-sheet)
 
 
 #
