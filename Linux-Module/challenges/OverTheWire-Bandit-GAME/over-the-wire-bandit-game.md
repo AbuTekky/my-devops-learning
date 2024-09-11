@@ -642,9 +642,9 @@ The password for **Bandit Level 12** was stored in the file `data.txt`, where al
 #
 
 
-<h2 style="font-family: 'Press Start 2P', cursive; color: #23FF16;">
-  To be continued...🥀💀🔪
-</h2>
+
+## To be continued...🥀💀🔪
+
 
 ## 📜 Command Cheat Sheet
 
