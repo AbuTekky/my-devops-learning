@@ -19,7 +19,7 @@
   - [To be continued...](#to-be-continued)
   - [Command Cheat Sheet](#command-cheat-sheet)
 
-
+ - [Step 2: Create Terraform Configuration Files](#step-2-create-terraform-configuration-files)
 #
 
 <br>
