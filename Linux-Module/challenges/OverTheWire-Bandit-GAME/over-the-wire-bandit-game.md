@@ -1,3 +1,25 @@
+![My Custom Badge](https://img.shields.io/badge/OverTheWire-Bandit-Green)
+
+## Table of Contents 📚
+
+- [My Journey with OverTheWire Bandit](#my-journey-with-overthewire-bandit)
+  - [Bandit Level 0](#bandit-level-0)
+  - [Bandit Level 0 → Level 1](#bandit-level-0--level-1)
+  - [Bandit Level 1 → Level 2](#bandit-level-1--level-2)
+  - [Bandit Level 2 → Level 3](#bandit-level-2--level-3)
+  - [Bandit Level 3 → Level 4](#bandit-level-3--level-4)
+  - [Bandit Level 4 → Level 5](#bandit-level-4--level-5)
+  - [Bandit Level 5 → Level 6](#bandit-level-5--level-6)
+  - [Bandit Level 6 → Level 7](#bandit-level-6--level-7)
+  - [Bandit Level 7 → Level 8](#bandit-level-7--level-8)
+  - [Bandit Level 8 → Level 9](#bandit-level-8--level-9)
+  - [Bandit Level 9 → Level 10](#bandit-level-9--level-10)
+  - [Bandit Level 10 → Level 11](#bandit-level-10--level-11)
+  - [Bandit Level 11 → Level 12](#bandit-level-11--level-12)
+  - [To be continued...](#to-be-continued)
+
+#
+
 <!-- Add a custom style block with background color -->
 <style>
   body {
@@ -614,3 +636,8 @@ The password for **Bandit Level 12** was stored in the file `data.txt`, where al
 
 <!-- Fancy title and stylish box around GIF --> <div style="text-align: center; margin: 20px 0;"> <h2 style="font-family: 'Arial', sans-serif; color: #FF5722; font-size: 24px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Live Demonstration</h2> <div style="width: 400px; margin: 0 auto; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"> <img src="images/Level11-12.gif" alt="Level 11-12 GIF" width="100%" /> </div> </div>
 #
+
+
+<h2 style="font-family: 'Press Start 2P', cursive; color: #23FF16;">
+  To be continued...🥀💀🔪
+</h2>
