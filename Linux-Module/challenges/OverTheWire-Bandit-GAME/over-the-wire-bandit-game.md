@@ -45,7 +45,7 @@
 <br>
 
 <h2 style="font-family: 'Press Start 2P', cursive; color: #23FF16;">
-  My Journey with OverTheWire Bandit
+##  My Journey with OverTheWire Bandit
 </h2>
 
 As part of my journey to mastering Linux, I recently stumbled upon the **OverTheWire Bandit** game—and honestly, it’s been a game-changer for me. I chose Bandit because I wanted a fun, interactive way to apply my Linux skills in real-world scenarios, and it came highly recommended by the CoderCo team as a great starting point.
