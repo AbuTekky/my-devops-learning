@@ -1,0 +1,294 @@
+
+# Bash Scripting Cheat Sheet
+
+## Table of Contents
+1. [Introduction to BASH Scripting](#1-introduction-to-bash-scripting)
+2. [Writing Your First Script 📝](#2-writing-your-first-script-)
+3. [The 'Shebang' Line](#3-the-shebang-line)
+4. [Comments](#4a-comments)
+5. [Running Scripts from ANYWHERE!](#4b-running-scripts-from-anywhere)
+6. [Variables](#5-variables)
+7. [Parameters](#6-parameters)
+8. [Arithmetic Expansion](#7-arithmetic-expansion)
+9. [Arithmetic Expansion (With Parameters)](#8-arithmetic-expansion-with-parameters)
+10. [VSCode Installation](#9-vscode-installation)
+11. [Configure VSCode](#10-configure-vscode)
+12. [if Statements](#11-if-statements)
+13. [else and elif](#12-else-and-elif)
+14. [Nested if Statements](#13-nested-if-statements)
+15. [while Loops](#14-while-loops)
+16. [for Loops](#15-for-loops)
+17. [Break and Continue](#16-break-and-continue)
+18. [Basics of Functions](#17-basics-of-functions)
+19. [Parameters (Functions)](#18-parameters)
+20. [User Inputs](#19-user-inputs)
+21. [Handling Bad Data](#20-handling-bad-data)
+22. [Piping](#21-piping)
+23. [Introduction to Error Handling](#22-introduction-to-error-handling)
+24. [if Statements Recap for Error Handling](#23-if-statements-recap-for-error-handling)
+25. [Exit Codes](#24-exit-codes)
+26. [Set -e](#25-set--e)
+27. [Set -u](#26-set--u)
+28. [Set -x](#27-set--x)
+29. [Set -eux](#28-set--eux)
+30. [More Set Commands](#29-more-set-commands)
+31. [Change PATH Permanently](#30-change-path-permanently)
+32. [Reading Environment Variables](#31-reading-environment-variables)
+33. [Standard Environment Variables](#32-standard-environment-variables)
+34. [Reading Files](#33-reading-files)
+
+## 1. Introduction to BASH Scripting
+Bash scripting allows you to automate repetitive tasks, manage system operations, and create powerful utilities using a series of commands in a script file.
+
+## 2. Writing Your First Script 📝
+1. Create a file named `first_script.sh`:
+    ```bash
+    touch first_script.sh
+    ```
+2. Add the following code to it:
+    ```bash
+    #!/bin/bash
+    echo "Hello, Amir and Abdurrahman!"
+    ```
+3. Make it executable:
+    ```bash
+    chmod +x first_script.sh
+    ```
+4. Run the script:
+    ```bash
+    ./first_script.sh
+    ```
+
+## 3. The 'Shebang' Line
+The shebang line at the beginning of the script tells the system which interpreter to use:
+```bash
+#!/bin/bash
+```
+
+## 4a. Comments
+Comments are used for adding explanations in your scripts and are ignored during execution:
+```bash
+# This is a comment
+```
+
+## 4b. Running Scripts from ANYWHERE!
+To run scripts from any location, move the script to a directory in your PATH (e.g., `/usr/local/bin`):
+```bash
+sudo mv first_script.sh /usr/local/bin/
+```
+
+## 5. Variables
+Variables store data for use in your scripts:
+```bash
+name="Amir"  # Variable declaration
+echo "Hello, $name!"
+```
+
+## 6. Parameters
+Use parameters to pass values to your script:
+```bash
+#!/bin/bash
+# Usage: ./script.sh Amir Abdurrahman
+name1=$1  # Variable declaration for first parameter
+name2=$2  # Variable declaration for second parameter
+echo "Hello, $name1 and $name2!"
+```
+
+## 7. Arithmetic Expansion
+Arithmetic operations can be performed using double parentheses:
+```bash
+num1=5  # Variable declaration
+num2=3  # Variable declaration
+num=$((num1 + num2))
+echo "Result: $num"
+```
+
+## 8. Arithmetic Expansion (With Parameters)
+Using parameters for arithmetic operations:
+```bash
+#!/bin/bash
+# Usage: ./script.sh 5 10
+num1=$1  # Variable declaration for first parameter
+num2=$2  # Variable declaration for second parameter
+result=$(($num1 + $num2))
+echo "Sum: $result"
+```
+
+## 9. VSCode Installation
+To install Visual Studio Code on Ubuntu:
+```bash
+sudo apt update
+sudo apt install -y software-properties-common apt-transport-https wget
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+sudo apt update
+sudo apt install -y code
+```
+
+## 10. Configure VSCode
+- Install the **ShellCheck** extension for Bash script linting.
+- Install the **Bash Debug** extension for debugging.
+
+## 11. if Statements
+```bash
+number=$1  # Variable declaration for input
+if [ $number -gt 10 ]; then
+    echo "$number is greater than 10"
+fi
+```
+
+## 12. else and elif
+```bash
+number=$1  # Variable declaration for input
+if [ $number -gt 10 ]; then
+    echo "$number is greater than 10"
+elif [ $number -eq 10 ]; then
+    echo "$number is equal to 10"
+else
+    echo "$number is less than 10"
+fi
+```
+
+## 13. Nested if Statements
+```bash
+number=$1  # Variable declaration for input
+if [ $number -gt 10 ]; then
+    if [ $number -lt 20 ]; then
+        echo "$number is between 11 and 19"
+    fi
+fi
+```
+
+## 14. while Loops
+```bash
+count=1  # Variable declaration
+while [ $count -le 5 ]; do
+    echo "Count: $count"
+    count=$((count + 1))
+done
+```
+
+## 15. for Loops
+```bash
+for name in Amir Abdurrahman; do
+    echo "Hello, $name!"
+done
+```
+
+## 16. Break and Continue
+```bash
+for number in {1..10}; do
+    if [ $number -eq 5 ]; then
+        break
+    fi
+    echo "Number: $number"
+done
+```
+
+## 17. Basics of Functions
+```bash
+greet() {
+    person1=$1  # Variable declaration for first parameter
+    person2=$2  # Variable declaration for second parameter
+    echo "Hello, $person1 and $person2!"
+}
+greet "Amir" "Abdurrahman"
+```
+
+## 18. Parameters
+Parameters within functions:
+```bash
+add() {
+    num1=$1  # Variable declaration for first parameter
+    num2=$2  # Variable declaration for second parameter
+    echo $(($num1 + $num2))
+}
+add 5 10
+```
+
+## 19. User Inputs
+```bash
+echo "Enter your name:"
+read name  # Variable declaration for user input
+echo "Hello, $name!"
+```
+
+## 20. Handling Bad Data
+```bash
+echo "Enter a number:"
+read num  # Variable declaration for user input
+if ! [[ "$num" =~ ^[0-9]+$ ]]; then
+    echo "Error: Not a valid number!"
+    exit 1
+fi
+```
+
+## 21. Piping
+```bash
+names="Amir Abdurrahman"  # Variable declaration
+echo "$names" | tr ' ' '\n'
+```
+
+## 22. Introduction to Error Handling
+Bash has built-in error handling features like `set -e`.
+
+## 23. if Statements Recap for Error Handling
+```bash
+if ! command; then
+    echo "Command failed!"
+    exit 1
+fi
+```
+
+## 24. Exit Codes
+Exit codes indicate the success or failure of a command. Use `echo $?` to view the exit code of the last command.
+
+## 25. Set -e
+Exit immediately if a command exits with a non-zero status.
+```bash
+set -e
+```
+
+## 26. Set -u
+Treat unset variables as an error.
+```bash
+set -u
+```
+
+## 27. Set -x
+Print each command before executing it.
+```bash
+set -x
+```
+
+## 28. Set -eux
+Combine `set -e`, `set -u`, and `set -x`.
+```bash
+set -eux
+```
+
+## 29. More Set Commands
+- `set -o pipefail`: Return the exit status of the last command in the pipeline that failed.
+
+## 30. Change PATH Permanently
+Add the following line to `~/.bashrc`:
+```bash
+export PATH="$PATH:/your/custom/path"
+```
+
+## 31. Reading Environment Variables
+```bash
+echo $HOME
+```
+
+## 32. Standard Environment Variables
+- `HOME`: Home directory
+- `USER`: Username
+- `PATH`: Directories to search for executable files
+
+## 33. Reading Files
+```bash
+while IFS= read -r line; do
+    echo "$line"
+done < file.txt
+```
