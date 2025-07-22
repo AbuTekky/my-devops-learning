@@ -16,17 +16,18 @@
   - [Bandit Level 9 → Level 10](#bandit-level-9--level-10)
   - [Bandit Level 10 → Level 11](#bandit-level-10--level-11)
   - [Bandit Level 11 → Level 12](#bandit-level-11--level-12)
-  - [To be continued...](#to-be-continued)
+  - [Command Summary Sheet](#command-cheat-sheet)
+
 
 #
 
-<!-- Add a custom style block with background color -->
-<style>
-  body {
-    background-color: #201F1F;
-    color: white; /* Optional: Change text color to white to improve contrast */
-  }
-</style>
+<br>
+
+> **💡 Note:** This guide uses simple command-line tasks to help you master basic Linux skills with OverTheWire’s Bandit.
+
+#
+
+
 
 <!-- Add Google Font for bubble/gaming effect -->
 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -42,37 +43,43 @@
 
 <br>
 
-<h2 style="font-family: 'Press Start 2P', cursive; color: #23FF16;">
-  My Journey with OverTheWire Bandit
-</h2>
+
+##  My Journey with OverTheWire Bandit
 
 
 As part of my journey to mastering Linux, I recently stumbled upon the **OverTheWire Bandit** game—and honestly, it’s been a game-changer for me. I chose Bandit because I wanted a fun, interactive way to apply my Linux skills in real-world scenarios, and it came highly recommended by the CoderCo team as a great starting point.
 
 For those who haven’t heard of it, Bandit is a wargame that helps you sharpen your Linux command-line skills in a hands-on way. Each level throws a new challenge at you, pushing you to navigate directories, manipulate files, and use different commands to find hidden passwords and unlock the next level.
 
+---
+
 ## 🔍 What I’ve Learned So Far:
 
-- **Mastering Commands**: From the basics like `ls`, `cat`, and `grep`, to more advanced commands like `find`, `xargs`, and `ssh`, Bandit has given me countless opportunities to practice and fine-tune my command-line abilities.
-  
-- **Problem-Solving**: Each level is like a puzzle. You need to carefully read, think critically, and sometimes experiment to figure things out. It’s really helped me become more methodical in tackling problems in Linux.
+- **Mastering Commands:** Bandit has been a fantastic way to get hands-on with the command line. I started with the basics like `ls`, `cat`, and `grep`, and as I progressed, I got into more advanced tools like `find`, `xargs`, and `ssh`. It’s given me tons of practice, and I’ve definitely sharpened my command-line skills.
 
-- **Scripting Practice**: Some levels require combining commands in creative ways or writing simple scripts. This has been a great way for me to improve my scripting skills.
+- **Problem-Solving:** Every level in Bandit feels like solving a puzzle. You have to read carefully, think things through, and sometimes just try different approaches until something works. It’s really helped me become more methodical and patient when working through problems in Linux.
 
-- **Security Awareness**: Bandit also sneaks in some important security concepts, like file permissions and SSH. This has been super helpful, especially since these are things anyone working with Linux in DevOps or sysadmin roles should understand.
+- **Scripting Practice:** Some levels push you to get creative by combining commands or even writing simple scripts. It’s been an awesome way to improve my scripting, something I wasn’t expecting to work on as much!
 
-One of the trickiest levels I encountered involved searching for a file with specific properties using a combination of `find ./inhere -type f -size 1033c` and `cat file.txt | sort | grep`. I struggled with it for a while but finally managed to crack it! The sense of accomplishment after figuring it out was incredibly rewarding and made the challenge all the more worth it.
+- **Security Awareness:** Along the way, Bandit throws in some important security concepts like file permissions and SSH. These things are critical, especially if you’re working in DevOps or managing servers. I picked up some useful security tips without even realizing it at first.
+
+---
+
+## 🤔 Challenges Faced:
+
+One of the toughest levels I tackled had me searching for a file with very specific properties using commands like `find ./inhere -type f -size 1033c` and `cat file.txt | sort | grep`. It took a while, and I struggled with it, but finally cracking it felt *so* satisfying. That’s what makes the challenge worth it.
+
+---
 
 ## 💡 Why I Think You Should Try It:
 
-If you’re like me and want to deepen your understanding of Linux, **OverTheWire Bandit** is absolutely worth your time. It’s challenging, no doubt, but that’s what makes it so rewarding. Every level you beat is a small victory and proof that your skills are improving. Plus, there’s nothing quite like the satisfaction of cracking a tough level!
+If you're looking to boost your Linux skills, I highly recommend giving OverTheWire Bandit a shot. It's tough, but that's what makes it rewarding. Each time you beat a level, it’s a big W, and it’s really satisfying to see how your skills improve as you go. Plus, there’s nothing quite like that feeling of finally cracking a tricky challenge.
 
-This experience has inspired me to continue exploring more advanced wargames like **Narnia** or **Leviathan**, to further strengthen my Linux and security knowledge. I highly recommend Bandit if you want to take your Linux skills to the next level—it’s one thing to read about commands in a book, but applying them in a real, game-like environment is where the real learning happens.
+---
 
 
-<h2 style="font-family: 'Press Start 2P', cursive; color: #23FF16;">
-  Bandit Level 0
-</h2>
+##  Bandit Level 0
+
 
 ### Level Goal
 The goal for **Bandit Level 0** was to log into the game server using SSH. My task was to connect to the provided host using the correct port, username, and password. Once I logged in, I needed to visit the Level 1 page to move on to the next step.
@@ -106,9 +113,9 @@ The goal for **Bandit Level 0** was to log into the game server using SSH. My ta
 <!-- Fancy title and stylish box around GIF --> <div style="text-align: center; margin: 20px 0;"> <h2 style="font-family: 'Arial', sans-serif; color: #FF5722; font-size: 24px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Live Demonstration</h2> <div style="width: 400px; margin: 0 auto; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"> <img src="images/Level0.gif" alt="Level 0 GIF" width="100%" /> </div> </div>
 #
 
-<h2 style="font-family: 'Press Start 2P', cursive; color: #23FF16;">
-  Bandit Level 0 → Level 1
-</h2>
+
+##  Bandit Level 0 → Level 1
+
 
 ### Level Goal
 The password for **Bandit Level 1** was stored in a file called `readme` located in the home directory of the Bandit Level 0 server. My objective was to find and retrieve this password and use it to log into Bandit Level 1 via SSH.
@@ -133,9 +140,9 @@ The password for **Bandit Level 1** was stored in a file called `readme` located
 <!-- Fancy title and stylish box around GIF --> <div style="text-align: center; margin: 20px 0;"> <h2 style="font-family: 'Arial', sans-serif; color: #FF5722; font-size: 24px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Live Demonstration</h2> <div style="width: 400px; margin: 0 auto; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"> <img src="images/Level0-1.gif" alt="Level 0-1 GIF" width="100%" /> </div> </div>
 #
 
-<h2 style="font-family: 'Press Start 2P', cursive; color: #23FF16;">
-  Bandit Level 1 → Level 2
-</h2>
+
+##  Bandit Level 1 → Level 2
+
 
 ## Level Goal
 The password for **Bandit Level 2** was stored in a file called `-` located in my home directory. My task was to find and retrieve this password and use it to log into Bandit Level 2 via SSH.
@@ -180,9 +187,8 @@ The password for **Bandit Level 2** was stored in a file called `-` located in m
 <!-- Fancy title and stylish box around GIF --> <div style="text-align: center; margin: 20px 0;"> <h2 style="font-family: 'Arial', sans-serif; color: #FF5722; font-size: 24px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Live Demonstration</h2> <div style="width: 400px; margin: 0 auto; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"> <img src="images/Level1-2.gif" alt="Level 1-2 GIF" width="100%" /> </div> </div>
 #
 
-<h2 style="font-family: 'Press Start 2P', cursive; color: #23FF16;">
-  Bandit Level 2 → Level 3
-</h2>
+## Bandit Level 2 → Level 3
+
 
 ### Level Goal
 The password for **Bandit Level 3** was stored in a file called `spaces in this filename` located in my home directory. My task was to find and retrieve this password and use it to log into Bandit Level 3 via SSH.
@@ -227,9 +233,8 @@ The password for **Bandit Level 3** was stored in a file called `spaces in this 
 <!-- Fancy title and stylish box around GIF --> <div style="text-align: center; margin: 20px 0;"> <h2 style="font-family: 'Arial', sans-serif; color: #FF5722; font-size: 24px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Live Demonstration</h2> <div style="width: 400px; margin: 0 auto; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"> <img src="images/Level2-3.gif" alt="Level 2-3 GIF" width="100%" /> </div> </div>
 #
 
-<h2 style="font-family: 'Press Start 2P', cursive; color: #23FF16;">
-  Bandit Level 3 → Level 4
-</h2>
+
+##  Bandit Level 3 → Level 4
 
 
 ### Level Goal
@@ -274,9 +279,9 @@ The password for **Bandit Level 4** was stored in a hidden file located in the `
 <!-- Fancy title and stylish box around GIF --> <div style="text-align: center; margin: 20px 0;"> <h2 style="font-family: 'Arial', sans-serif; color: #FF5722; font-size: 24px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Live Demonstration</h2> <div style="width: 400px; margin: 0 auto; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"> <img src="images/Level3-4.gif" alt="Level 3-4 GIF" width="100%" /> </div> </div>
 #
 
-<h2 style="font-family: 'Press Start 2P', cursive; color: #23FF16;">
-  Bandit Level 4 → Level 5
-</h2>
+
+##  Bandit Level 4 → Level 5
+
 
 ### Level Goal
 The password for **Bandit Level 5** was stored in the only human-readable file in the `inhere` directory. My task was to find and retrieve this password and use it to log into Bandit Level 5 via SSH.
@@ -320,9 +325,8 @@ The password for **Bandit Level 5** was stored in the only human-readable file i
 <!-- Fancy title and stylish box around GIF --> <div style="text-align: center; margin: 20px 0;"> <h2 style="font-family: 'Arial', sans-serif; color: #FF5722; font-size: 24px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Live Demonstration</h2> <div style="width: 400px; margin: 0 auto; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"> <img src="images/Level4-5.gif" alt="Level 4-5 GIF" width="100%" /> </div> </div>
 #
 
-<h2 style="font-family: 'Press Start 2P', cursive; color: #23FF16;">
-  Bandit Level 5 → Level 6
-</h2>
+##  Bandit Level 5 → Level 6
+
 
 ### Level Goal
 The password for **Bandit Level 6** was stored in a file located somewhere under the `inhere` directory. The file had to meet the following criteria:
@@ -371,9 +375,9 @@ My task was to find this file and retrieve the password to log into Bandit Level
 <!-- Fancy title and stylish box around GIF --> <div style="text-align: center; margin: 20px 0;"> <h2 style="font-family: 'Arial', sans-serif; color: #FF5722; font-size: 24px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Live Demonstration</h2> <div style="width: 400px; margin: 0 auto; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"> <img src="images/Level5-6.gif" alt="Level 5-6 GIF" width="100%" /> </div> </div>
 #
 
-<h2 style="font-family: 'Press Start 2P', cursive; color: #23FF16;">
-  Bandit Level 6 → Level 7
-</h2>
+
+## Bandit Level 6 → Level 7
+
 
 ### Level Goal
 The password for **Bandit Level 7** was stored in a file somewhere on the server. The file had the following properties:
@@ -422,9 +426,8 @@ My task was to find this file and retrieve the password to log into Bandit Level
 <!-- Fancy title and stylish box around GIF --> <div style="text-align: center; margin: 20px 0;"> <h2 style="font-family: 'Arial', sans-serif; color: #FF5722; font-size: 24px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Live Demonstration</h2> <div style="width: 400px; margin: 0 auto; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"> <img src="images/Level6-7.gif" alt="Level 6-7 GIF" width="100%" /> </div> </div>
 #
 
-<h2 style="font-family: 'Press Start 2P', cursive; color: #23FF16;">
-  Bandit Level 7 → Level 8
-</h2>
+##  Bandit Level 7 → Level 8
+
 
 ### Level Goal
 The password for **Bandit Level 8** was stored in a file called `data.txt` next to the word "millionth". My task was to find the password by searching for this word in the file.
@@ -462,9 +465,9 @@ The password for **Bandit Level 8** was stored in a file called `data.txt` next 
 <!-- Fancy title and stylish box around GIF --> <div style="text-align: center; margin: 20px 0;"> <h2 style="font-family: 'Arial', sans-serif; color: #FF5722; font-size: 24px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Live Demonstration</h2> <div style="width: 400px; margin: 0 auto; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"> <img src="images/Level7-8.gif" alt="Level 7-8 GIF" width="100%" /> </div> </div>
 #
 
-<h2 style="font-family: 'Press Start 2P', cursive; color: #23FF16;">
-  Bandit Level 8 → Level 9
-</h2>
+
+## Bandit Level 8 → Level 9
+
 
 ### Level Goal
 The password for **Bandit Level 9** was stored in the file `data.txt` and was the only line of text that occurred exactly once. My task was to find this unique line and use it as the password to access the next level.
@@ -511,9 +514,9 @@ The password for **Bandit Level 9** was stored in the file `data.txt` and was th
 <!-- Fancy title and stylish box around GIF --> <div style="text-align: center; margin: 20px 0;"> <h2 style="font-family: 'Arial', sans-serif; color: #FF5722; font-size: 24px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Live Demonstration</h2> <div style="width: 400px; margin: 0 auto; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"> <img src="images/Level8-9.gif" alt="Level 8-9 GIF" width="100%" /> </div> </div>
 #
 
-<h2 style="font-family: 'Press Start 2P', cursive; color: #23FF16;">
-  Bandit Level 9 → Level 10
-</h2>
+
+## Bandit Level 9 → Level 10
+
 
 ### Level Goal
 The password for **Bandit Level 10** was stored in the file `data.txt` among a few human-readable strings, preceded by several `=` characters. My task was to extract the human-readable strings and locate the password.
@@ -554,9 +557,9 @@ The password for **Bandit Level 10** was stored in the file `data.txt` among a f
 <!-- Fancy title and stylish box around GIF --> <div style="text-align: center; margin: 20px 0;"> <h2 style="font-family: 'Arial', sans-serif; color: #FF5722; font-size: 24px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Live Demonstration</h2> <div style="width: 400px; margin: 0 auto; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"> <img src="images/Level9-10.gif" alt="Level 9-10 GIF" width="100%" /> </div> </div>
 #
 
-<h2 style="font-family: 'Press Start 2P', cursive; color: #23FF16;">
-  Bandit Level 10 → Level 11
-</h2>
+
+## Bandit Level 10 → Level 11
+
 
 ### Level Goal
 The password for **Bandit Level 11** was stored in the file `data.txt`, which contained base64-encoded data. My task was to decode the base64 data and retrieve the password.
@@ -594,9 +597,8 @@ The password for **Bandit Level 11** was stored in the file `data.txt`, which co
 <!-- Fancy title and stylish box around GIF --> <div style="text-align: center; margin: 20px 0;"> <h2 style="font-family: 'Arial', sans-serif; color: #FF5722; font-size: 24px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Live Demonstration</h2> <div style="width: 400px; margin: 0 auto; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);"> <img src="images/Level10-11.gif" alt="Level 10-11 GIF" width="100%" /> </div> </div>
 #
 
-<h2 style="font-family: 'Press Start 2P', cursive; color: #23FF16;">
-  Bandit Level 11 → Level 12 (bamboozled on this one...)
-</h2>
+
+##  Bandit Level 11 → Level 12 
 
 ### Level Goal
 The password for **Bandit Level 12** was stored in the file `data.txt`, where all lowercase (a-z) and uppercase (A-Z) letters had been rotated by 13 positions (ROT13). My task was to decode the ROT13-encoded data and retrieve the password.
@@ -638,6 +640,37 @@ The password for **Bandit Level 12** was stored in the file `data.txt`, where al
 #
 
 
-<h2 style="font-family: 'Press Start 2P', cursive; color: #23FF16;">
-  To be continued...🥀💀🔪
-</h2>
+
+## To be continued...🥀💀🔪
+
+<br>
+
+## Command Summary Sheet
+
+Here’s a quick reference guide to the commands I used during the Bandit walkthrough. These commands helped me solve various levels and can be extremely useful in other Linux environments as well.
+
+### 1. Navigation & File Operations:
+- `ls`: List directory contents.
+- `ls -a`: List all files, including hidden ones.
+- `cd <directory>`: Change the current directory.
+- `cat <filename>`: Display the contents of a file.
+- `cat ./<filename>`: Use `./` to reference a file that starts with special characters (e.g., `-`).
+- `file <filename>`: Determine the file type.
+
+### 2. Searching & Sorting:
+- `find ./<directory> -type f -size <size>`: Search for files of a specific type and size.
+- `find / -user <username> -group <groupname> -size <size>`: Search for files with a specific owner, group, and size.
+- `grep <pattern> <filename>`: Search for lines matching a pattern within a file.
+- `sort <filename>`: Sort the contents of a file.
+- `uniq -u`: Filter and display only the unique lines from sorted output.
+
+### 3. Secure Shell (SSH):
+- `ssh <username>@<hostname> -p <port>`: Connect to a remote server via SSH using a specific username and port.
+
+### 4. Data Manipulation:
+- `strings <filename>`: Extract human-readable strings from binary data.
+- `base64 -d <filename>`: Decode base64-encoded data.
+- `tr 'A-Za-z' 'N-ZA-Mn-za-m'`: Use the `tr` command to translate characters, such as decoding ROT13-encoded text.
+
+### 5. Redirection & Suppression:
+- `2>/dev/null`: Redirect error messages to suppress them from being displayed.
